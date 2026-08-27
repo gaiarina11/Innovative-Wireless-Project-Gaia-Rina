@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "channel_sounding_ras_reflector",
+			"path": "../../channel_sounding_ras_reflector"
+		},
+		{
+			"name": "v2.9.2",
+			"path": "../../v2.9.2"
+		}
+	],
+	"settings": {}
+}

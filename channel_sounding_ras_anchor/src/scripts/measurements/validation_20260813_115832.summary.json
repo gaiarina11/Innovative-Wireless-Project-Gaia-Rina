@@ -1,0 +1,79 @@
+{
+  "target_position_m": [
+    0.75,
+    0.02
+  ],
+  "requested_samples": 30,
+  "warmup_samples": 5,
+  "total_snapshots": 35,
+  "accepted_snapshots": 35,
+  "availability": 1.0,
+  "rejections": {},
+  "solver": {
+    "mean_position_m": [
+      0.6682973900971494,
+      -0.06349679795176719
+    ],
+    "bias_x_m": -0.08170260990285072,
+    "bias_y_m": -0.08349679795176719,
+    "std_x_m": 0.027908841678309128,
+    "std_y_m": 0.02506378716481497,
+    "mean_error_m": 0.1196732257640141,
+    "rmse_position_m": 0.12250398105765709,
+    "median_error_m": 0.12793905997389202,
+    "p95_error_m": 0.14620342344157736,
+    "max_error_m": 0.1499205719457121
+  },
+  "filtered": {
+    "mean_position_m": [
+      0.6707979153663214,
+      -0.06134759302180501
+    ],
+    "bias_x_m": -0.07920208463367873,
+    "bias_y_m": -0.081347593021805,
+    "std_x_m": 0.021967490177418753,
+    "std_y_m": 0.02438286492319778,
+    "mean_error_m": 0.11525202286246541,
+    "rmse_position_m": 0.1180321679448766,
+    "median_error_m": 0.12140284733820877,
+    "p95_error_m": 0.14256021714255526,
+    "max_error_m": 0.14442122349773226
+  },
+  "generated_at_utc": "2026-08-13T10:00:43.329840+00:00",
+  "csv_log": "/opt/nordic/ncs/channel_sounding_ras_anchor/src/scripts/measurements/validation_20260813_115832.csv",
+  "anchors_m": {
+    "0": [
+      1.5,
+      0.0
+    ],
+    "1": [
+      0.0,
+      0.0
+    ],
+    "2": [
+      0.75,
+      1.2
+    ]
+  },
+  "distance_calibration": {
+    "0": {
+      "scale": 0.45124590725420743,
+      "offset_m": 0.19237282567563319
+    },
+    "1": {
+      "scale": 0.8061900582023722,
+      "offset_m": -0.48013669913520524
+    },
+    "2": {
+      "scale": 1.0,
+      "offset_m": -0.17534862502795676
+    }
+  },
+  "max_rmse_m": 0.25,
+  "filter": {
+    "distance_window": 5,
+    "outlier_sigma": 4.0,
+    "outlier_floor_m": 0.2,
+    "position_alpha": 0.35
+  }
+}
